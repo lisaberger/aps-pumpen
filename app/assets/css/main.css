@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* APS Theme */
+@theme static {
+    --font-sans: 'Public Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* APS Blue */
+    --color-aps-brand-50:  #e6f7fe;
+    --color-aps-brand-100: #bfe5fd;
+    --color-aps-brand-200: #99d2fb;
+    --color-aps-brand-300: #66bff9;
+    --color-aps-brand-400: #33aaf7;
+    --color-aps-brand-500: #0096d8; /* Base color */
+    --color-aps-brand-600: #0082be;
+    --color-aps-brand-700: #006aa0;
+    --color-aps-brand-800: #005482;
+    --color-aps-brand-900: #003d60;
+    --color-aps-brand-950: #001f30;
+
+    /* APS Red */
+    /* TODO Add red color */
+}
+
+:root {
+    --ui-primary: var(--color-aps-brand-500);
+}
