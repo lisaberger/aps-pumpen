@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import 'primeicons/primeicons.css';
-</script>
-
 <template>
     <div class="flex flex-col min-h-screen">
         <aps-header />

@@ -17,9 +17,10 @@ const LEGAL_LINKS = [
 </script>
 
 <template>
-    <div class="md:px-12 lg:px-20">
-        <hr aria-hidden="true" class="h-px border-surface-200 dark:border-surface-700 mt-12" />
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-0 mt-12">
+    <div class="md:px-12 lg:px-20 pb-8">
+        <hr aria-hidden="true" class="h-px border-surface-200 dark:border-surface-700" />
+
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-0 mt-8">
             <span class="flex items-center gap-4 text-surface-600">
                 &copy; APS Höck GmbH {{ currentYear }}
             </span>
@@ -29,19 +30,29 @@ const LEGAL_LINKS = [
                     v-for="link in LEGAL_LINKS"
                     :key="link.id"
                     :to="link.url"
-                    class="text-aps-brand-500 underline underline-offset-2 decoration-aps-brand-500 dark:text-surface-400 cursor-pointer leading-tight"
+                    class="text-aps-brand-500 dark:text-surface-400 cursor-pointer leading-tight"
                 >
                     {{ link.label }}
                 </nuxt-link>
             </div>
+
             <div class="flex items-center gap-6">
-                <div
-                    v-for="icon in ['facebook', 'whatsapp']"
-                    :key="icon"
+                <nuxt-link
+                    to="https://www.facebook.com/apspumpen/?locale=de_DE"
+                    external
+                    target="_blank"
                     class="w-6 h-6 flex items-center justify-center cursor-pointer"
                 >
-                    <i :class="`pi pi-${icon} text-surface-500 dark:text-surface-400`" />
-                </div>
+                    <i class="pi pi-facebook text-surface-500 dark:text-surface-400" />
+                </nuxt-link>
+                <nuxt-link
+                    to="https://www.facebook.com/apspumpen/?locale=de_DE"
+                    external
+                    target="_blank"
+                    class="w-6 h-6 flex items-center justify-center cursor-pointer"
+                >
+                    <i class="pi pi-whatsapp text-surface-500 dark:text-surface-400" />
+                </nuxt-link>
                 <prime-button
                     severity="primary"
                     text
