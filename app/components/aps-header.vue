@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import type { MenuItem } from 'primevue/menuitem';
 import { ref } from 'vue';
 
 const menuItems = ref<MenuItem[]>([
@@ -47,8 +46,14 @@ const menuItems = ref<MenuItem[]>([
 </script>
 
 <template>
-    <!-- <header class="fixed w-full">
-        <menu-bar :model="menuItems" class="min-h-20">
+    <header class="fixed w-full">
+        <prime-menubar
+            :model="menuItems"
+            class="min-h-20"
+            :dt="{
+                root: 'bg-aps-brand-500'
+            }"
+        >
             <template #start>
                 <nuxt-link to="/">
                     <aps-logo />
@@ -57,7 +62,7 @@ const menuItems = ref<MenuItem[]>([
             <template #item="{ item, props, hasSubmenu, root }">
                 <nuxt-link :to="item.url" class="flex items-center" v-bind="props.action">
                     <span>{{ item.label }}</span>
-                    <Badge
+                    <prime-badge
                         v-if="item.badge"
                         :class="{ 'ml-auto': !root, 'ml-2': root }"
                         :value="item.badge"
@@ -77,9 +82,9 @@ const menuItems = ref<MenuItem[]>([
                     />
                 </nuxt-link>
             </template>
-        </menu-bar>
-    </header> -->
-    <header class="resize-container-7 h-full bg-surface-50 dark:bg-surface-950">
+        </prime-menubar>
+    </header>
+    <!-- <header class="resize-container-7 h-full bg-surface-50 dark:bg-surface-950">
         <div
             class="w-full bg-surface-0 dark:bg-surface-900 py-0 px-12 lg:px-12 flex items-center justify-between relative lg:fixed min-h-20 border-b border-surface-200"
         >
@@ -211,5 +216,5 @@ const menuItems = ref<MenuItem[]>([
                 </ul>
             </div>
         </div>
-    </header>
+    </header> -->
 </template>

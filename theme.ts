@@ -16,6 +16,15 @@ const APS = definePreset(Aura, {
             900: 'var(--color-primary-900)',
             950: 'var(--color-primary-950)'
         }
+    },
+    components: {
+        Menubar: {
+            root: 'bg-primary-500 text-white border-none shadow-md',
+            menu: 'bg-primary-500',
+            item: 'text-white hover:bg-primary-600 transition-colors',
+            label: 'text-white font-medium',
+            icon: 'text-white'
+        }
     }
 });
 

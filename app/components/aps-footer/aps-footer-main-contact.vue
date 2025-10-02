@@ -9,10 +9,12 @@
             </p>
             <p class="non-italic text-surface-700 dark:text-surface-400">
                 <i class="pi pi-phone mr-2 text-aps-brand-500" />
-                <a class="non-italic" href="+49821240770">+49 821 24077-0</a>
+                <a href="+49821240770" class="hover:text-aps-brand-500"> +49 821 24077-0 </a>
                 <br />
                 <i class="pi pi-at mr-2 text-aps-brand-500" />
-                <a href="mailto:info@aps-pumpen.de">info@aps-pumpen.de</a>
+                <a href="mailto:info@aps-pumpen.de" class="hover:text-aps-brand-500">
+                    info@aps-pumpen.de
+                </a>
             </p>
         </div>
     </div>
