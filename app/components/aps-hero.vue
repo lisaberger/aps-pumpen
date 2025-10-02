@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-surface-900 p-12 lg:p-20 lg:py-10">
+    <div class="bg-surface-900 px-2 p-12 lg:p-20">
         <div class="flex flex-wrap lg:flex-row flex-col-reverse gap-12 items-center">
             <div class="flex-1 p-4">
                 <h1 class="text-5xl font-bold text-white mb-4 leading-tight">
@@ -31,8 +31,8 @@
                 </ul>
                 <prime-button
                     label="Unsere Leistungen"
-                    severity="secondary"
                     size="large"
+                    outlined
                     class="mt-12"
                     icon="pi pi-arrow-right"
                     icon-pos="right"
@@ -40,7 +40,7 @@
             </div>
             <div class="flex-1 text-center lg:text-right overflow-hidden">
                 <img
-                    src="@/assets/bk-amarex-pro-hero.png"
+                    src="@/assets/images/pumps/bk-amarex-pro-hero.png"
                     alt="Image"
                     class="w-50 max-w-md lg:w-80 mx-auto"
                 />

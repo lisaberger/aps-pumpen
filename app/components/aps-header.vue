@@ -1,92 +1,8 @@
-<script setup lang="ts">
-import { ref } from 'vue';
-
-const menuItems = ref<MenuItem[]>([
-    {
-        label: 'Unsere Leistungen',
-        url: '/services',
-        items: [
-            { label: 'Pumpen', url: '/about' },
-            { label: 'Blocks', url: '/about' },
-            { label: 'UI Kit', url: '/about' },
-            {
-                label: 'Templates',
-                icon: 'pi pi-palette',
-                items: [
-                    {
-                        label: 'Apollo',
-                        icon: 'pi pi-palette',
-                        url: '/about'
-                    },
-                    {
-                        label: 'Ultima',
-                        icon: 'pi pi-palette',
-                        url: '/about'
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        label: 'Unternehmen',
-        icon: 'pi pi-star',
-        url: '/about'
-    },
-    {
-        label: 'Jobs',
-        icon: 'pi pi-search',
-        url: '/career'
-    },
-    {
-        label: 'Contact',
-        icon: 'pi pi-envelope',
-        url: '/contact'
-    }
-]);
-</script>
-
 <template>
-    <header class="fixed w-full">
-        <prime-menubar
-            :model="menuItems"
-            class="min-h-20"
-            :dt="{
-                root: 'bg-aps-brand-500'
-            }"
-        >
-            <template #start>
-                <nuxt-link to="/">
-                    <aps-logo />
-                </nuxt-link>
-            </template>
-            <template #item="{ item, props, hasSubmenu, root }">
-                <nuxt-link :to="item.url" class="flex items-center" v-bind="props.action">
-                    <span>{{ item.label }}</span>
-                    <prime-badge
-                        v-if="item.badge"
-                        :class="{ 'ml-auto': !root, 'ml-2': root }"
-                        :value="item.badge"
-                    />
-                    <span
-                        v-if="item.shortcut"
-                        class="ml-auto border border-surface rounded bg-emphasis text-muted-color text-xs p-1"
-                    >
-                        {{ item.shortcut }}
-                    </span>
-                    <i
-                        v-if="hasSubmenu"
-                        :class="[
-                            'pi pi-angle-down ml-auto',
-                            { 'pi-angle-down': root, 'pi-angle-right': !root }
-                        ]"
-                    />
-                </nuxt-link>
-            </template>
-        </prime-menubar>
-    </header>
-    <!-- <header class="resize-container-7 h-full bg-surface-50 dark:bg-surface-950">
+    <header class="resize-container-7 h-full bg-surface-50 dark:bg-surface-950 z-50">
+        <aps-banner class="fixed w-full" />
         <div
-            class="w-full bg-surface-0 dark:bg-surface-900 py-0 px-12 lg:px-12 flex items-center justify-between relative lg:fixed min-h-20 border-b border-surface-200"
+            class="mt-9 bg-surface-0 dark:bg-surface-900 py-0 px-12 lg:px-24 flex items-center justify-between fixed w-full min-h-20 border-b border-surface-200"
         >
             <aps-logo />
             <a
@@ -95,7 +11,6 @@ const menuItems = ref<MenuItem[]>([
                     enterFromClass: 'hidden',
                     enterActiveClass: 'animate-fadein',
                     leaveToClass: 'hidden',
-
                     leaveActiveClass: 'animate-fadeout',
                     hideOnOutsideClick: true,
                     resizeSelector: '.resize-container-7',
@@ -216,5 +131,5 @@ const menuItems = ref<MenuItem[]>([
                 </ul>
             </div>
         </div>
-    </header> -->
+    </header>
 </template>
