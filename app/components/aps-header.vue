@@ -213,5 +213,3 @@ const menuItems = ref<MenuItem[]>([
         </div>
     </header>
 </template>
-
-<style scoped></style>

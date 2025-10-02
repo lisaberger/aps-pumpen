@@ -1,5 +1,5 @@
-import Aura from '@primeuix/themes/aura';
 import tailwindcss from '@tailwindcss/vite';
+import APS from './theme';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -21,8 +21,13 @@ export default defineNuxtConfig({
         options: {
             ripple: true,
             theme: {
-                preset: Aura
+                preset: APS,
+                prefix: 'p',
+                darkModeSelector: 'system'
             }
+        },
+        components: {
+            prefix: 'prime'
         }
     },
 

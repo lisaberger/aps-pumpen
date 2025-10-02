@@ -1,6 +1,6 @@
 <template>
     <div class="bg-surface-900 p-12 lg:p-20">
-        <!-- <div class="flex flex-wrap lg:flex-row flex-col-reverse gap-12 items-center">
+        <div class="flex flex-wrap lg:flex-row flex-col-reverse gap-12 items-center">
             <div class="flex-1 p-4">
                 <h1 class="text-5xl font-bold text-white mb-4 leading-tight">
                     Die ganze Welt der
@@ -39,9 +39,6 @@
                     class="w-full max-w-md lg:w-auto lg:max-w-xl mx-auto"
                 />
             </div>
-        </div> -->
+        </div>
     </div>
 </template>
-<script setup>
-import Button from 'primevue/button';
-</script>
