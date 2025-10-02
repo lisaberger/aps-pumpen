@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Terms and Conditions
-    </div>
+    <div>Terms and Conditions</div>
 </template>

@@ -1,8 +1,8 @@
-@import "tailwindcss";
-@import "@nuxt/ui";
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
 
 /* APS Theme */
-@theme static {
+@theme {
     --font-sans: 'Public Sans', system-ui, sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
 
@@ -18,9 +18,6 @@
     --color-aps-brand-800: #005482;
     --color-aps-brand-900: #003d60;
     --color-aps-brand-950: #001f30;
-
-    /* APS Red */
-    /* TODO Add red color */
 }
 
 :root {

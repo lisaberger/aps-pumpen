@@ -1,5 +1,3 @@
 <template>
-    <div>
-        Jobübersicht
-    </div>
+    <div>Jobübersicht</div>
 </template>

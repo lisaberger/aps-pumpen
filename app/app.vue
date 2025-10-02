@@ -1,11 +1,15 @@
+<script setup lang="ts">
+import 'primeicons/primeicons.css';
+</script>
+
 <template>
-    <u-app>
+    <div class="flex flex-col min-h-screen">
         <aps-header />
-        
-        <u-main>
+
+        <main class="flex-1 mt-20">
             <nuxt-page />
-        </u-main>
-        
+        </main>
+
         <aps-footer />
-    </u-app>
+    </div>
 </template>
