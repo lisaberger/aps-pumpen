@@ -8,7 +8,7 @@
     --font-mono: 'JetBrains Mono', monospace;
 
     /* APS Blue */
-    --color-aps-brand-50:  #e6f7fe;
+    --color-aps-brand-50: #e6f7fe;
     --color-aps-brand-100: #bfe5fd;
     --color-aps-brand-200: #99d2fb;
     --color-aps-brand-300: #66bff9;
@@ -22,15 +22,15 @@
 }
 
 :root {
-  --color-primary-50: var(--color-aps-brand-50);
-  --color-primary-100: var(--color-aps-brand-100);
-  --color-primary-200: var(--color-aps-brand-200);
-  --color-primary-300: var(--color-aps-brand-300);
-  --color-primary-400: var(--color-aps-brand-400);
-  --color-primary-500: var(--color-aps-brand-500); /* Hauptfarbe */
-  --color-primary-600: var(--color-aps-brand-600);
-  --color-primary-700: var(--color-aps-brand-700);
-  --color-primary-800: var(--color-aps-brand-800);
-  --color-primary-900: var(--color-aps-brand-900);
-  --color-primary-950: var(--color-aps-brand-950);
+    --color-primary-50: var(--color-aps-brand-50);
+    --color-primary-100: var(--color-aps-brand-100);
+    --color-primary-200: var(--color-aps-brand-200);
+    --color-primary-300: var(--color-aps-brand-300);
+    --color-primary-400: var(--color-aps-brand-400);
+    --color-primary-500: var(--color-aps-brand-500); /* Hauptfarbe */
+    --color-primary-600: var(--color-aps-brand-600);
+    --color-primary-700: var(--color-aps-brand-700);
+    --color-primary-800: var(--color-aps-brand-800);
+    --color-primary-900: var(--color-aps-brand-900);
+    --color-primary-950: var(--color-aps-brand-950);
 }

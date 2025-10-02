@@ -32,6 +32,7 @@ export default defineNuxtConfig({
     },
 
     app: {
+        pageTransition: { name: 'page', mode: 'opt-in' },
         head: {
             title: 'APS Höck GmbH',
             htmlAttrs: {

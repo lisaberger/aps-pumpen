@@ -1,43 +1,52 @@
 <template>
-    <div class="bg-surface-0 dark:bg-surface-950 overflow-hidden py-20 px-6 md:px-12 lg:px-20">
-        <div class="flex flex-col gap-12 items-center">
-            <div class="flex flex-col gap-4 items-center max-w-3xl mx-auto">
+    <div
+        class="bg-surface-0 dark:bg-surface-950 overflow-hidden px-6 py-20 md:px-12 lg:px-20"
+    >
+        <div class="flex flex-col items-center gap-12">
+            <div class="mx-auto flex max-w-3xl flex-col items-center gap-4">
                 <h3
-                    class="text-surface-900 dark:text-surface-0 font-bold text-2xl leading-tight text-center"
+                    class="text-surface-900 dark:text-surface-0 text-center text-2xl leading-tight font-bold"
                 >
                     Build The Way You Want
                 </h3>
-                <p class="text-surface-500 dark:text-surface-400 text-center leading-tight">
-                    Discover the tools that empower your creativity and productivity. Tailor your
-                    experience with platforms designed to adapt to your needs.
+                <p
+                    class="text-surface-500 dark:text-surface-400 text-center leading-tight"
+                >
+                    Discover the tools that empower your creativity and
+                    productivity. Tailor your experience with platforms designed
+                    to adapt to your needs.
                 </p>
             </div>
-            <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 max-w-7xl mx-auto">
+            <div
+                class="mx-auto grid max-w-7xl grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4"
+            >
                 <div
-                    class="flex flex-col gap-4 bg-white dark:bg-surface-950 border border-surface-200 dark:border-surface-700 rounded-xl p-4"
+                    class="dark:bg-surface-950 border-surface-200 dark:border-surface-700 flex flex-col gap-4 rounded-xl border bg-white p-4"
                 >
                     <div
-                        class="h-36 bg-yellow-50 dark:bg-yellow-900/30 rounded-xl flex items-center justify-center p-3"
+                        class="flex h-36 items-center justify-center rounded-xl bg-yellow-50 p-3 dark:bg-yellow-900/30"
                     >
                         <img
                             src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/render/image/public/block.images/blocks/feature/slack.svg"
                             alt="Slack Icon"
-                            class="w-16 h-16"
+                            class="h-16 w-16"
                         />
                     </div>
                     <div class="flex flex-col gap-2">
                         <div
-                            class="text-surface-900 dark:text-surface-0 font-medium text-lg leading-tight"
+                            class="text-surface-900 dark:text-surface-0 text-lg leading-tight font-medium"
                         >
                             Ornare Arcu Odio
                         </div>
-                        <div class="text-surface-500 dark:text-surface-400 leading-normal">
-                            Quisque sagittis purus sit amet volutpat consequat mauris nunc.
-                            Scelerisque eleifend.
+                        <div
+                            class="text-surface-500 dark:text-surface-400 leading-normal"
+                        >
+                            Quisque sagittis purus sit amet volutpat consequat
+                            mauris nunc. Scelerisque eleifend.
                         </div>
                     </div>
                     <a
-                        class="flex items-center gap-4 font-medium text-surface-900 dark:text-surface-0 cursor-pointer group leading-normal"
+                        class="text-surface-900 dark:text-surface-0 group flex cursor-pointer items-center gap-4 leading-normal font-medium"
                     >
                         <span>Explore</span>
                         <i
@@ -46,30 +55,32 @@
                     </a>
                 </div>
                 <div
-                    class="flex flex-col gap-4 bg-white dark:bg-surface-950 border border-surface-200 dark:border-surface-700 rounded-xl p-4"
+                    class="dark:bg-surface-950 border-surface-200 dark:border-surface-700 flex flex-col gap-4 rounded-xl border bg-white p-4"
                 >
                     <div
-                        class="h-36 bg-blue-50 dark:bg-blue-900/30 rounded-xl flex items-center justify-center p-3"
+                        class="flex h-36 items-center justify-center rounded-xl bg-blue-50 p-3 dark:bg-blue-900/30"
                     >
                         <img
                             src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/render/image/public/block.images/blocks/feature/fb_messenger.svg"
                             alt="Messenger Icon"
-                            class="w-16 h-16"
+                            class="h-16 w-16"
                         />
                     </div>
                     <div class="flex flex-col gap-2">
                         <div
-                            class="text-surface-900 dark:text-surface-0 font-medium text-lg leading-tight"
+                            class="text-surface-900 dark:text-surface-0 text-lg leading-tight font-medium"
                         >
                             Sem Nulla Pharetra
                         </div>
-                        <div class="text-surface-500 dark:text-surface-400 leading-normal">
-                            Quisque sagittis purus sit amet volutpat consequat mauris nunc.
-                            Scelerisque eleifend.
+                        <div
+                            class="text-surface-500 dark:text-surface-400 leading-normal"
+                        >
+                            Quisque sagittis purus sit amet volutpat consequat
+                            mauris nunc. Scelerisque eleifend.
                         </div>
                     </div>
                     <a
-                        class="flex items-center gap-4 font-medium text-surface-900 dark:text-surface-0 cursor-pointer group leading-normal"
+                        class="text-surface-900 dark:text-surface-0 group flex cursor-pointer items-center gap-4 leading-normal font-medium"
                     >
                         <span>Explore</span>
                         <i
@@ -78,30 +89,32 @@
                     </a>
                 </div>
                 <div
-                    class="flex flex-col gap-4 bg-white dark:bg-surface-950 border border-surface-200 dark:border-surface-700 rounded-xl p-4"
+                    class="dark:bg-surface-950 border-surface-200 dark:border-surface-700 flex flex-col gap-4 rounded-xl border bg-white p-4"
                 >
                     <div
-                        class="h-36 bg-green-50 dark:bg-green-900/30 rounded-xl flex items-center justify-center p-3"
+                        class="flex h-36 items-center justify-center rounded-xl bg-green-50 p-3 dark:bg-green-900/30"
                     >
                         <img
                             src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/render/image/public/block.images/blocks/feature/messages.svg"
                             alt="iMessage Icon"
-                            class="w-16 h-16"
+                            class="h-16 w-16"
                         />
                     </div>
                     <div class="flex flex-col gap-2">
                         <div
-                            class="text-surface-900 dark:text-surface-0 font-medium text-lg leading-tight"
+                            class="text-surface-900 dark:text-surface-0 text-lg leading-tight font-medium"
                         >
                             Facilisi Etiam Dignissim
                         </div>
-                        <div class="text-surface-500 dark:text-surface-400 leading-normal">
-                            Quisque sagittis purus sit amet volutpat consequat mauris nunc.
-                            Scelerisque eleifend.
+                        <div
+                            class="text-surface-500 dark:text-surface-400 leading-normal"
+                        >
+                            Quisque sagittis purus sit amet volutpat consequat
+                            mauris nunc. Scelerisque eleifend.
                         </div>
                     </div>
                     <a
-                        class="flex items-center gap-4 font-medium text-surface-900 dark:text-surface-0 cursor-pointer group leading-normal"
+                        class="text-surface-900 dark:text-surface-0 group flex cursor-pointer items-center gap-4 leading-normal font-medium"
                     >
                         <span>Explore</span>
                         <i
@@ -110,30 +123,32 @@
                     </a>
                 </div>
                 <div
-                    class="flex flex-col gap-4 bg-white dark:bg-surface-950 border border-surface-200 dark:border-surface-700 rounded-xl p-4"
+                    class="dark:bg-surface-950 border-surface-200 dark:border-surface-700 flex flex-col gap-4 rounded-xl border bg-white p-4"
                 >
                     <div
-                        class="h-36 bg-rose-50 dark:bg-rose-900/30 rounded-xl flex items-center justify-center p-3"
+                        class="flex h-36 items-center justify-center rounded-xl bg-rose-50 p-3 dark:bg-rose-900/30"
                     >
                         <img
                             src="https://fqjltiegiezfetthbags.supabase.co/storage/v1/render/image/public/block.images/blocks/feature/google_meet.svg"
                             alt="Google Meet Icon"
-                            class="w-16 h-16"
+                            class="h-16 w-16"
                         />
                     </div>
                     <div class="flex flex-col gap-2">
                         <div
-                            class="text-surface-900 dark:text-surface-0 font-medium text-lg leading-tight"
+                            class="text-surface-900 dark:text-surface-0 text-lg leading-tight font-medium"
                         >
                             Risus Feugiat In Ante
                         </div>
-                        <div class="text-surface-500 dark:text-surface-400 leading-normal">
-                            Quisque sagittis purus sit amet volutpat consequat mauris nunc.
-                            Scelerisque eleifend.
+                        <div
+                            class="text-surface-500 dark:text-surface-400 leading-normal"
+                        >
+                            Quisque sagittis purus sit amet volutpat consequat
+                            mauris nunc. Scelerisque eleifend.
                         </div>
                     </div>
                     <a
-                        class="flex items-center gap-4 font-medium text-surface-900 dark:text-surface-0 cursor-pointer group leading-normal"
+                        class="text-surface-900 dark:text-surface-0 group flex cursor-pointer items-center gap-4 leading-normal font-medium"
                     >
                         <span>Explore</span>
                         <i
@@ -145,30 +160,37 @@
         </div>
     </div>
     <div
-        class="flex flex-col lg:flex-row items-start gap-20 bg-surface-0 px-6 py-20 md:px-12 lg:px-20 dark:bg-surface-950 overflow-hidden"
+        class="bg-surface-0 dark:bg-surface-950 flex flex-col items-start gap-20 overflow-hidden px-6 py-20 md:px-12 lg:flex-row lg:px-20"
     >
         <div class="w-full lg:flex-1">
             <h2
-                class="text-surface-900 font-semibold text-5xl leading-tight mb-4 dark:text-surface-0"
+                class="text-surface-900 dark:text-surface-0 mb-4 text-5xl leading-tight font-semibold"
             >
                 Data Analysis and Processing
             </h2>
-            <p class="text-lg leading-normal text-surface-600 dark:text-surface-400 mb-7">
-                Sed adipiscing diam donec adipiscing. Est lorem ipsum dolor sit amet consectetur.
-                Auctor elit sed vulputate mi sit amet mauris commodo quis. Pulvinar neque laoreet
-                suspendisse interdum.
+            <p
+                class="text-surface-600 dark:text-surface-400 mb-7 text-lg leading-normal"
+            >
+                Sed adipiscing diam donec adipiscing. Est lorem ipsum dolor sit
+                amet consectetur. Auctor elit sed vulputate mi sit amet mauris
+                commodo quis. Pulvinar neque laoreet suspendisse interdum.
             </p>
-            <Button label="Get Started" icon="pi pi-arrow-right" icon-pos="right" outlined />
+            <Button
+                label="Get Started"
+                icon="pi pi-arrow-right"
+                icon-pos="right"
+                outlined
+            />
         </div>
-        <div class="w-full lg:flex-1 flex flex-col gap-6">
+        <div class="flex w-full flex-col gap-6 lg:flex-1">
             <div
-                class="group p-6 pr-8 bg-surface-50 hover:bg-surface-100 dark:bg-surface-800 dark:hover:bg-surface-700 transition-colors rounded-xl border border-surface-100 dark:border-surface-700 flex items-center gap-6 cursor-pointer"
+                class="group bg-surface-50 hover:bg-surface-100 dark:bg-surface-800 dark:hover:bg-surface-700 border-surface-100 dark:border-surface-700 flex cursor-pointer items-center gap-6 rounded-xl border p-6 pr-8 transition-colors"
             >
                 <span
-                    class="w-12 h-12 bg-surface-900 dark:bg-surface-0 flex items-center justify-center rounded-md"
+                    class="bg-surface-900 dark:bg-surface-0 flex h-12 w-12 items-center justify-center rounded-md"
                 >
                     <svg
-                        class="w-8 h-7"
+                        class="h-7 w-8"
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
@@ -185,23 +207,23 @@
                     </svg>
                 </span>
                 <h5
-                    class="text-surface-900 dark:text-surface-0 text-lg font-semibold flex-1 leading-tight"
+                    class="text-surface-900 dark:text-surface-0 flex-1 text-lg leading-tight font-semibold"
                 >
                     Data Collection
                 </h5>
-                <span class="group-hover:translate-x-3 transition-transform"
+                <span class="transition-transform group-hover:translate-x-3"
                     ><i
-                        class="pi pi-arrow-right text-lg! leading-normal! text-surface-900 dark:text-surface-0"
+                        class="pi pi-arrow-right text-surface-900 dark:text-surface-0 text-lg! leading-normal!"
                 /></span>
             </div>
             <div
-                class="group p-6 pr-8 bg-surface-50 hover:bg-surface-100 dark:bg-surface-800 dark:hover:bg-surface-700 transition-colors rounded-xl border border-surface-100 dark:border-surface-700 flex items-center gap-6 cursor-pointer"
+                class="group bg-surface-50 hover:bg-surface-100 dark:bg-surface-800 dark:hover:bg-surface-700 border-surface-100 dark:border-surface-700 flex cursor-pointer items-center gap-6 rounded-xl border p-6 pr-8 transition-colors"
             >
                 <span
-                    class="w-12 h-12 bg-surface-900 dark:bg-surface-0 flex items-center justify-center rounded-md"
+                    class="bg-surface-900 dark:bg-surface-0 flex h-12 w-12 items-center justify-center rounded-md"
                 >
                     <svg
-                        class="w-8 h-7"
+                        class="h-7 w-8"
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="25"
@@ -218,23 +240,23 @@
                     </svg>
                 </span>
                 <h5
-                    class="text-surface-900 dark:text-surface-0 text-lg font-semibold flex-1 leading-tight"
+                    class="text-surface-900 dark:text-surface-0 flex-1 text-lg leading-tight font-semibold"
                 >
                     Data Transformation
                 </h5>
-                <span class="group-hover:translate-x-3 transition-transform"
+                <span class="transition-transform group-hover:translate-x-3"
                     ><i
-                        class="pi pi-arrow-right text-lg! leading-normal! text-surface-900 dark:text-surface-0"
+                        class="pi pi-arrow-right text-surface-900 dark:text-surface-0 text-lg! leading-normal!"
                 /></span>
             </div>
             <div
-                class="group p-6 pr-8 bg-surface-50 hover:bg-surface-100 dark:bg-surface-800 dark:hover:bg-surface-700 transition-colors rounded-xl border border-surface-100 dark:border-surface-700 flex items-center gap-6 cursor-pointer"
+                class="group bg-surface-50 hover:bg-surface-100 dark:bg-surface-800 dark:hover:bg-surface-700 border-surface-100 dark:border-surface-700 flex cursor-pointer items-center gap-6 rounded-xl border p-6 pr-8 transition-colors"
             >
                 <span
-                    class="w-12 h-12 bg-surface-900 dark:bg-surface-0 flex items-center justify-center rounded-md"
+                    class="bg-surface-900 dark:bg-surface-0 flex h-12 w-12 items-center justify-center rounded-md"
                 >
                     <svg
-                        class="w-8 h-7"
+                        class="h-7 w-8"
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
                         height="24"
@@ -251,13 +273,13 @@
                     </svg>
                 </span>
                 <h5
-                    class="text-surface-900 dark:text-surface-0 text-lg font-semibold flex-1 leading-tight"
+                    class="text-surface-900 dark:text-surface-0 flex-1 text-lg leading-tight font-semibold"
                 >
                     Statistical Analysis
                 </h5>
-                <span class="group-hover:translate-x-3 transition-transform"
+                <span class="transition-transform group-hover:translate-x-3"
                     ><i
-                        class="pi pi-arrow-right text-lg! leading-normal! text-surface-900 dark:text-surface-0"
+                        class="pi pi-arrow-right text-surface-900 dark:text-surface-0 text-lg! leading-normal!"
                 /></span>
             </div>
         </div>
