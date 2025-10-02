@@ -30,7 +30,7 @@
                         >
                     </li>
                 </ul>
-                <Button label="Claim Your Account" rounded size="large" class="mt-12" />
+                <prime-button label="Claim Your Account" rounded size="large" class="mt-12" />
             </div>
             <div class="flex-1 text-center lg:text-right overflow-hidden">
                 <img
@@ -42,6 +42,3 @@
         </div>
     </div>
 </template>
-<script setup>
-import Button from 'primevue/button';
-</script>

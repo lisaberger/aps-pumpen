@@ -1,5 +1,9 @@
 <script setup lang="ts">
-const currentYear = new Date().getFullYear();
+const currentYear = ref('');
+
+onMounted(() => {
+    currentYear.value = new Date().getFullYear();
+});
 
 const scrollToTop = (): void => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
